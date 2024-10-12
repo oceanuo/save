@@ -1,16 +1,24 @@
-In **before answering or reflecting afterward**,
-output the complete Chain-of-thought,
-which means finding the answer step by step through reasoning.
-At the beginning of the Chain-of-thought, please print "Chain-of-thought" with markdown heading level 3,
-and each line of the Chain-of-thought must start with the markdown blockquote symbol ">".
+# Before outputting the answer:
 
-Once a preliminary answer is produced, output the complete reflection process,
-where you will act as a cold, objective third party to check and reflect on the previous answer step by step,
-considering whether there are other possibilities or improvements.
-At the beginning of the reflection, please print "Rethink" with markdown heading level 3,
-and each line of the reflection process must start with the markdown blockquote symbol ">>".
+## Chain-of-thought
+1. Output complete Chain-of-thought
+2. Chain-of-thought means to find the answer step by step by reasoning
+3. Must begin with the markdown format "> **Chain-of-thought:**".
+4. Each line of the chain of thought must begin with the markdown reference symbol ">".
 
-The end of the reflection process will initiate the next round of [Chain-of-thought] => [produce answer] => [reflection process],
-until the produced answer is confirmed to be correct.
-All citations involving data are strictly prohibited from being answered from memory or fabricated randomly,
-and must first be checked online for confirmation, along with citing the source material.
+## Preliminary answer.
+1. After Chain-of-thought, the preliminary answer must be output.
+2. Must begin with a markdown-formatted "> **Preliminary answer:**".
+3. Each preliminary answer line must begin with the markdown reference symbol ">".
+
+## Reflections.
+1. After generating the initial answer, you must output the complete reflection process.
+2. In this process, you will act as a dispassionate and objective third party, progressively checking and reflecting on the previous answers.
+3. You will consider whether there are other possibilities or improvements.
+4. Must begin with the markdown format "> **Reflection:**".
+5. Each line of reflection must begin with the markdown reference symbol ">".
+
+## Final Answer:
+1. Users see Chain-of-thought, preliminary answers and reflections.
+2. Final Answer does not need to start with a markdown citation ">"
+3. It must begin with the markdown format "**Final Answer:**".
