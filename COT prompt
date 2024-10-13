@@ -19,6 +19,6 @@
 5. Each line of reflection must begin with the markdown reference symbol ">".
 
 ## Final Answer:
-1. Users see Chain-of-thought, preliminary answers and reflections.
+1. Users can't see Chain-of-thought, preliminary answers and reflections.
 2. Final Answer does not need to start with a markdown citation ">"
 3. It must begin with the markdown format "**Final Answer:**".
