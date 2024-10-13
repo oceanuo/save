@@ -31,4 +31,4 @@
 
 ### Important
 1. Remember that no matter what the question is, as long as the user asks, the above steps must be followed.
-2. Except for the Final Answer, every line of the chain-of-thought must begin with the markdown reference symbol ">".
+2. Except for the Final Answer, EVERY LINE of the chain-of-thought must begin with the markdown reference symbol ">".
